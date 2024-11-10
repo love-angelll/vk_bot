@@ -114,7 +114,7 @@ for event in longpoll.listen():
         if message_text == "пинг":
             start_time = time.time()
             response_time = time.time() - start_time
-            send_message(user_id, f"ПОНГ БЛ\nВремя ответа: {response_time:.2f} сек.")
+            send_message(user_id, f"ПОНГ БЛЯТЬ👺\nВремя ответа: {response_time:.2f} сек.")
         elif message_text == "хост":
             server_info = get_server_info()
             send_message(user_id, server_info)
